@@ -1,0 +1,43 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.agile.config.properties.JwtProperties",
+      "name": "agile.custom.jwt",
+      "type": "com.agile.config.properties.JwtProperties"
+    },
+    {
+      "sourceType": "com.agile.config.druid.actuator.endpoint.DruidDataSourceMvcEndpoint",
+      "name": "endpoints.druid",
+      "type": "com.agile.config.druid.actuator.endpoint.DruidDataSourceMvcEndpoint"
+    },
+    {
+      "sourceType": "com.agile.config.DBConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "dataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.agile.config.properties.JwtProperties",
+      "name": "agile.custom.jwt.salt",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.agile.config.druid.actuator.endpoint.DruidDataSourceMvcEndpoint",
+      "name": "endpoints.druid.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.agile.config.druid.actuator.endpoint.DruidDataSourceMvcEndpoint",
+      "name": "endpoints.druid.path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.agile.config.druid.actuator.endpoint.DruidDataSourceMvcEndpoint",
+      "name": "endpoints.druid.sensitive",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

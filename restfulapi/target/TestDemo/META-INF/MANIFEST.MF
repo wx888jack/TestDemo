@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: huangximing
+Build-Jdk: 1.8.0_112
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.startup.clothing
+Main-Class: ${start-class}
+
